@@ -1,0 +1,49 @@
+body{
+    background-color: green;
+}
+.container{
+    border: solid 10px red;
+    padding: 40px;
+}
+.container p{
+    font-family: Arial, sans-serif;
+}
+.container > .first p:first-child{
+    font-weight: bold;
+}
+.container p:nth-child(2){
+    font-family: serif;
+}
+.container p:last-child{
+    color: blue;
+}
+#text-toto{
+    color: yellow;
+    transition-duration: 0.4s;
+}
+#text-toto:hover{
+    color: red;
+    transition-duration: 0.4s;
+}
+#google{
+    font-family: Arial;
+    color: yellow;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#google:hover{
+    color: blue;
+}
+#google:visited{
+    color: red;
+}
+#google:focus{
+    color: green;
+}
+.google{
+    color: black;
+}
+.google{
+    color: blue;
+}
